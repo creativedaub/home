@@ -21,28 +21,7 @@ const DEVELOPER_INFO = {
 My engineering philosophy centers on clean code, sub-second performance, and intuitive user experiences. Beyond traditional web and mobile development, I build autonomous AI workflows—leveraging LLM orchestration, structured RAG pipelines, and automated tool-calling to eliminate repetitive internal operations and supercharge team velocity.`
 };
 
-const PROJECTS = [
-  {
-    id: 'african-climate-reporting',
-    title: 'African Climate Reporting Journalism Website',
-    categoryTag: 'Journalism Website',
-    category: 'website-creation',
-    date: '2/15/25',
-    shortDescription: 'Investigative journalism platform and editorial media hub delivering pan-African climate stories, interactive data maps, and multi-language reporting.',
-    fullDescription: 'A high-impact digital journalism and investigative reporting hub engineered for pan-African climate crises coverage. Features interactive climate geospatial maps, rich multimedia photo essays, dynamic editorial publishing workflow, multilingual content delivery, and sub-second asset caching for audiences across varying mobile connectivity bandwidths.',
-    image: './assets/images/climate_reporting_1789458082929.webp',
-    technologies: ['HTML5 / CSS3', 'JavaScript', 'Tailwind CSS', 'Geospatial Maps', 'Cloudflare CDN'],
-    client: 'African Climate Journalism Network',
-    duration: '6 Weeks',
-    metrics: '99.8% Lighthouse Speed, 320k+ Monthly Readers across 18 Countries',
-    architectureHighlights: [
-      'Lightweight offline-friendly article reader for low-bandwidth mobile networks',
-      'Interactive GIS climate change heatmap visualizer',
-      'Editorial headless publishing engine with structured journalism schema'
-    ],
-    liveUrl: 'https://africanclimatereporting.example.org',
-    githubUrl: 'https://github.com/creativedaub/african-climate-reporting'
-  },
+const PROJECTS = [  
   {
     id: 'robin-properties',
     title: 'Robin Properties',
@@ -210,6 +189,27 @@ const PROJECTS = [
     ],
     liveUrl: 'https://vanguard-status.demo',
     githubUrl: 'https://github.com/creativedaub/apex-distributed-backend'
+  },
+  {
+    id: 'african-climate-reporting',
+    title: 'African Climate Reporting Journalism Website',
+    categoryTag: 'Journalism Website',
+    category: 'website-creation',
+    date: '2/15/25',
+    shortDescription: 'Investigative journalism platform and editorial media hub delivering pan-African climate stories, interactive data maps, and multi-language reporting.',
+    fullDescription: 'A high-impact digital journalism and investigative reporting hub engineered for pan-African climate crises coverage. Features interactive climate geospatial maps, rich multimedia photo essays, dynamic editorial publishing workflow, multilingual content delivery, and sub-second asset caching for audiences across varying mobile connectivity bandwidths.',
+    image: './assets/images/climate_reporting_1789458082929.webp',
+    technologies: ['HTML5 / CSS3', 'JavaScript', 'Tailwind CSS', 'Geospatial Maps', 'Cloudflare CDN'],
+    client: 'African Climate Journalism Network',
+    duration: '6 Weeks',
+    metrics: '99.8% Lighthouse Speed, 320k+ Monthly Readers across 18 Countries',
+    architectureHighlights: [
+      'Lightweight offline-friendly article reader for low-bandwidth mobile networks',
+      'Interactive GIS climate change heatmap visualizer',
+      'Editorial headless publishing engine with structured journalism schema'
+    ],
+    liveUrl: 'https://africanclimatereporting.example.org',
+    githubUrl: 'https://github.com/creativedaub/african-climate-reporting'
   }
 ];
 
