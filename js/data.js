@@ -43,7 +43,6 @@ const PROJECTS = [
     liveUrl: 'https://robinproperties.example.com',
     githubUrl: 'https://github.com/creativedaub/robin-properties-web'
   },
-  
   {
     id: 'samira-ai-sales',
     title: 'Samira - AI Sales Assistant',
