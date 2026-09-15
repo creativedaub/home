@@ -189,7 +189,7 @@ const PROJECTS = [
     ],
     liveUrl: 'https://vanguard-status.demo',
     githubUrl: 'https://github.com/creativedaub/apex-distributed-backend'
-  }
+  },
   {
     id: 'african-climate-reporting',
     title: 'African Climate Reporting Journalism Website',
@@ -210,7 +210,7 @@ const PROJECTS = [
     ],
     liveUrl: 'https://africanclimatereporting.example.org',
     githubUrl: 'https://github.com/creativedaub/african-climate-reporting'
-  },
+  }
 ];
 
 const TESTIMONIALS = [
