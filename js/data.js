@@ -72,7 +72,7 @@ const PROJECTS = [
     date: '3/10/25',
     shortDescription: 'Complete website and operations platform for a development and impact services firm, featuring proper internal pages, automated payments, and fully automated partner onboarding.',
     fullDescription: 'A full-stack digital platform built for a professional development and impact services organization. Replaces fragmented external links with a clean multi-page architecture, introduces automated Stripe/PayPal payments for contributions and memberships, and delivers end-to-end automated onboarding email sequences with document collection. Includes a lightweight admin dashboard for submissions, payments, and partner status tracking.',
-    image: './assets/images/impactlink-platform.webp',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80', // Modern web analytics & platform dashboard
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe', 'Resend', 'PostgreSQL', 'Prisma'],
     client: 'Impact Development Partners',
     duration: '8 Weeks',
@@ -93,7 +93,7 @@ const PROJECTS = [
     date: '1/22/25',
     shortDescription: 'Automated onboarding system that turns form submissions into personalized email sequences, document collection workflows, and real-time status tracking for clients and partners.',
     fullDescription: 'A focused automation platform designed to eliminate manual onboarding emails. New partners or clients submit a form, data is stored, and a personalized multi-step email sequence is automatically triggered. Includes document upload requests, progress tracking, admin notifications, and a simple dashboard to monitor onboarding status across all active partners.',
-    image: './assets/images/autoonboard-system.webp',
+    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80', // Digital workflows and team automation
     technologies: ['Node.js', 'Express', 'PostgreSQL', 'Resend', 'React', 'Tailwind CSS'],
     client: 'Regional Development Network',
     duration: '5 Weeks',
@@ -114,7 +114,7 @@ const PROJECTS = [
     date: '11/18/24',
     shortDescription: 'Automated payment and receipt system built for non-profits and professional services organizations, supporting one-time and recurring contributions with full admin reconciliation.',
     fullDescription: 'A robust payments backend and dashboard designed for African non-profits and professional service firms. Supports Stripe alongside optional mobile money pathways, generates automatic receipts, handles recurring contributions, and provides an admin payment dashboard with exportable reconciliation reports. Built for reliability and clear financial tracking.',
-    image: './assets/images/payflow-africa.webp',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80', // Digital fintech & security concept
     technologies: ['Node.js', 'Stripe API', 'PostgreSQL', 'React', 'Tailwind CSS', 'PDF Generation'],
     client: 'African Impact Collective',
     duration: '6 Weeks',
@@ -135,7 +135,7 @@ const PROJECTS = [
     date: '8/05/24',
     shortDescription: 'Complete information architecture and website rebuild for a development-sector organization, converting external menu links into proper internal pages with fast, mobile-friendly performance.',
     fullDescription: 'A strategic website rebuild focused on fixing poor information architecture. External links that previously sent users away from the site were converted into properly structured internal pages and sections. The result is a fast, mobile-friendly, professional website that keeps visitors engaged and clearly communicates services, programs, and impact.',
-    image: './assets/images/devimpact-rebuild.webp',
+    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80', // Clean web design layout workspace
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'MDX', 'Vercel'],
     client: 'Development Sector Organization',
     duration: '4 Weeks',
@@ -156,7 +156,7 @@ const PROJECTS = [
     date: '4/12/25',
     shortDescription: 'AI-powered chatbot and email assistant trained on development program FAQs, capable of lead qualification and drafting accurate first responses to partner and donor inquiries.',
     fullDescription: 'An AI assistant built specifically for development and impact organizations. It answers common questions about programs and services, qualifies incoming leads, and drafts professional first-response emails for the team to review and send. Designed to reduce response time while maintaining accuracy and brand voice.',
-    image: './assets/images/ai-response-assistant.webp',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=1200&q=80', // Modern Artificial Intelligence visual concept
     technologies: ['Python', 'LangChain', 'OpenAI API', 'FastAPI', 'React', 'Vector Database'],
     client: 'Pan-African Development Initiative',
     duration: '5 Weeks',
