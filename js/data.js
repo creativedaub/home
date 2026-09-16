@@ -168,7 +168,7 @@ const PROJECTS = [
     ],
     liveUrl: 'https://ai-assistant.example.org',
     githubUrl: 'https://github.com/zeenosconcept/ai-response-assistant'
-  }
+  },
   {
     id: 'omniops-agent',
     title: 'Enterprise Ops Multi-Agent Swarm',
