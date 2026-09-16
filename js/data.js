@@ -23,27 +23,6 @@ My engineering philosophy centers on clean code, sub-second performance, and int
 
 const PROJECTS = [
   {
-    id: 'african-climate-reporting',
-    title: 'African Climate Reporting Journalism Website',
-    categoryTag: 'Journalism Website',
-    category: 'website-creation',
-    date: '2/15/25',
-    shortDescription: 'Investigative journalism platform and editorial media hub delivering pan-African climate stories, interactive data maps, and multi-language reporting.',
-    fullDescription: 'A high-impact digital journalism and investigative reporting hub engineered for pan-African climate crises coverage. Features interactive climate geospatial maps, rich multimedia photo essays, dynamic editorial publishing workflow, multilingual content delivery, and sub-second asset caching for audiences across varying mobile connectivity bandwidths.',
-    image: './assets/images/climate_reporting_1789458082929.webp',
-    technologies: ['HTML5 / CSS3', 'JavaScript', 'Tailwind CSS', 'Geospatial Maps', 'Cloudflare CDN'],
-    client: 'African Climate Journalism Network',
-    duration: '6 Weeks',
-    metrics: '99.8% Lighthouse Speed, 320k+ Monthly Readers across 18 Countries',
-    architectureHighlights: [
-      'Lightweight offline-friendly article reader for low-bandwidth mobile networks',
-      'Interactive GIS climate change heatmap visualizer',
-      'Editorial headless publishing engine with structured journalism schema'
-    ],
-    liveUrl: 'https://africanclimatereporting.example.org',
-    githubUrl: 'https://github.com/creativedaub/african-climate-reporting'
-  },
-  {
     id: 'robin-properties',
     title: 'Robin Properties Website',
     categoryTag: 'Real Estate Website',
@@ -86,6 +65,111 @@ const PROJECTS = [
     githubUrl: 'https://github.com/creativedaub/samira-ai-sales-assistant'
   },
   {
+    id: 'impactlink-development-platform',
+    title: 'ImpactLink – Full Website + Payment + Onboarding System',
+    categoryTag: 'Full-Stack Platform',
+    category: 'website-creation',
+    date: '3/10/25',
+    shortDescription: 'Complete website and operations platform for a development and impact services firm, featuring proper internal pages, automated payments, and fully automated partner onboarding.',
+    fullDescription: 'A full-stack digital platform built for a professional development and impact services organization. Replaces fragmented external links with a clean multi-page architecture, introduces automated Stripe/PayPal payments for contributions and memberships, and delivers end-to-end automated onboarding email sequences with document collection. Includes a lightweight admin dashboard for submissions, payments, and partner status tracking.',
+    image: './assets/images/impactlink-platform.webp',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe', 'Resend', 'PostgreSQL', 'Prisma'],
+    client: 'Impact Development Partners',
+    duration: '8 Weeks',
+    metrics: '100% internal page architecture, Fully automated payments & onboarding, Admin dashboard for operations',
+    architectureHighlights: [
+      'Clean multi-page information architecture with no external menu links',
+      'Stripe-powered one-time and recurring payment flows with automatic receipts',
+      'Trigger-based onboarding email sequences with document upload and status tracking'
+    ],
+    liveUrl: 'https://impactlink.example.org',
+    githubUrl: 'https://github.com/zeenosconcept/impactlink-platform'
+  },
+  {
+    id: 'autoonboard-partner-system',
+    title: 'AutoOnboard – Automated Client & Partner Onboarding Platform',
+    categoryTag: 'Automation Platform',
+    category: 'backend-automation',
+    date: '1/22/25',
+    shortDescription: 'Automated onboarding system that turns form submissions into personalized email sequences, document collection workflows, and real-time status tracking for clients and partners.',
+    fullDescription: 'A focused automation platform designed to eliminate manual onboarding emails. New partners or clients submit a form, data is stored, and a personalized multi-step email sequence is automatically triggered. Includes document upload requests, progress tracking, admin notifications, and a simple dashboard to monitor onboarding status across all active partners.',
+    image: './assets/images/autoonboard-system.webp',
+    technologies: ['Node.js', 'Express', 'PostgreSQL', 'Resend', 'React', 'Tailwind CSS'],
+    client: 'Regional Development Network',
+    duration: '5 Weeks',
+    metrics: 'Zero manual onboarding emails, Average onboarding time reduced by 70%, Full audit trail of communications',
+    architectureHighlights: [
+      'Form-to-database-to-email automation pipeline',
+      'Personalized multi-step email sequences with document requests',
+      'Admin dashboard with real-time onboarding status and notifications'
+    ],
+    liveUrl: 'https://autoonboard.example.org',
+    githubUrl: 'https://github.com/zeenosconcept/autoonboard-platform'
+  },
+  {
+    id: 'payflow-africa',
+    title: 'PayFlow Africa – Automated Payments & Receipts',
+    categoryTag: 'Payments System',
+    category: 'fintech-backend',
+    date: '11/18/24',
+    shortDescription: 'Automated payment and receipt system built for non-profits and professional services organizations, supporting one-time and recurring contributions with full admin reconciliation.',
+    fullDescription: 'A robust payments backend and dashboard designed for African non-profits and professional service firms. Supports Stripe alongside optional mobile money pathways, generates automatic receipts, handles recurring contributions, and provides an admin payment dashboard with exportable reconciliation reports. Built for reliability and clear financial tracking.',
+    image: './assets/images/payflow-africa.webp',
+    technologies: ['Node.js', 'Stripe API', 'PostgreSQL', 'React', 'Tailwind CSS', 'PDF Generation'],
+    client: 'African Impact Collective',
+    duration: '6 Weeks',
+    metrics: 'Fully automated receipts, Recurring contribution support, One-click reconciliation exports',
+    architectureHighlights: [
+      'Stripe integration with support for one-time and recurring payments',
+      'Automatic PDF receipt generation and email delivery',
+      'Admin dashboard with payment history and reconciliation tools'
+    ],
+    liveUrl: 'https://payflow-africa.example.org',
+    githubUrl: 'https://github.com/zeenosconcept/payflow-africa'
+  },
+  {
+    id: 'devimpact-site-rebuild',
+    title: 'DevImpact Site Rebuild',
+    categoryTag: 'Website Redesign',
+    category: 'website-creation',
+    date: '8/05/24',
+    shortDescription: 'Complete information architecture and website rebuild for a development-sector organization, converting external menu links into proper internal pages with fast, mobile-friendly performance.',
+    fullDescription: 'A strategic website rebuild focused on fixing poor information architecture. External links that previously sent users away from the site were converted into properly structured internal pages and sections. The result is a fast, mobile-friendly, professional website that keeps visitors engaged and clearly communicates services, programs, and impact.',
+    image: './assets/images/devimpact-rebuild.webp',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'MDX', 'Vercel'],
+    client: 'Development Sector Organization',
+    duration: '4 Weeks',
+    metrics: '100% internal navigation, Significant improvement in time-on-site, Fully responsive professional design',
+    architectureHighlights: [
+      'Converted external menu links into structured internal pages',
+      'Clean, professional design aligned with development-sector aesthetics',
+      'High performance and mobile-first experience'
+    ],
+    liveUrl: 'https://devimpact.example.org',
+    githubUrl: 'https://github.com/zeenosconcept/devimpact-site'
+  },
+  {
+    id: 'ai-response-assistant',
+    title: 'AI Response Assistant for Development Organizations',
+    categoryTag: 'AI Automation',
+    category: 'ai-solutions',
+    date: '4/12/25',
+    shortDescription: 'AI-powered chatbot and email assistant trained on development program FAQs, capable of lead qualification and drafting accurate first responses to partner and donor inquiries.',
+    fullDescription: 'An AI assistant built specifically for development and impact organizations. It answers common questions about programs and services, qualifies incoming leads, and drafts professional first-response emails for the team to review and send. Designed to reduce response time while maintaining accuracy and brand voice.',
+    image: './assets/images/ai-response-assistant.webp',
+    technologies: ['Python', 'LangChain', 'OpenAI API', 'FastAPI', 'React', 'Vector Database'],
+    client: 'Pan-African Development Initiative',
+    duration: '5 Weeks',
+    metrics: 'Significant reduction in first-response time, Accurate FAQ handling, Seamless handoff to human team',
+    architectureHighlights: [
+      'RAG-based knowledge system trained on organization programs and FAQs',
+      'Lead qualification and intent detection',
+      'AI-drafted email responses with human review workflow'
+    ],
+    liveUrl: 'https://ai-assistant.example.org',
+    githubUrl: 'https://github.com/zeenosconcept/ai-response-assistant'
+  }
+  {
     id: 'omniops-agent',
     title: 'Enterprise Ops Multi-Agent Swarm',
     categoryTag: 'AI Agents',
@@ -108,7 +192,7 @@ const PROJECTS = [
   },
   {
     id: 'pulsehealth-app',
-    title: 'PulseHealth Remote Patient Monitoring',
+    title: 'PulseHealth Remote Patient Monitoring Mobile App',
     categoryTag: 'Mobile App',
     category: 'mobile-apps',
     date: '11/10/24',
@@ -210,6 +294,27 @@ const PROJECTS = [
     ],
     liveUrl: 'https://vanguard-status.demo',
     githubUrl: 'https://github.com/creativedaub/apex-distributed-backend'
+  },
+  {
+    id: 'african-climate-reporting',
+    title: 'African Climate Reporting Journalism Website',
+    categoryTag: 'Journalism Website',
+    category: 'website-creation',
+    date: '2/15/25',
+    shortDescription: 'Investigative journalism platform and editorial media hub delivering pan-African climate stories, interactive data maps, and multi-language reporting.',
+    fullDescription: 'A high-impact digital journalism and investigative reporting hub engineered for pan-African climate crises coverage. Features interactive climate geospatial maps, rich multimedia photo essays, dynamic editorial publishing workflow, multilingual content delivery, and sub-second asset caching for audiences across varying mobile connectivity bandwidths.',
+    image: './assets/images/climate_reporting_1789458082929.webp',
+    technologies: ['HTML5 / CSS3', 'JavaScript', 'Tailwind CSS', 'Geospatial Maps', 'Cloudflare CDN'],
+    client: 'African Climate Journalism Network',
+    duration: '6 Weeks',
+    metrics: '99.8% Lighthouse Speed, 320k+ Monthly Readers across 18 Countries',
+    architectureHighlights: [
+      'Lightweight offline-friendly article reader for low-bandwidth mobile networks',
+      'Interactive GIS climate change heatmap visualizer',
+      'Editorial headless publishing engine with structured journalism schema'
+    ],
+    liveUrl: 'https://africanclimatereporting.example.org',
+    githubUrl: 'https://github.com/creativedaub/african-climate-reporting'
   }
 ];
 
