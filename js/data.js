@@ -23,48 +23,6 @@ My engineering philosophy centers on clean code, sub-second performance, and int
 
 const PROJECTS = [
   {
-    id: 'robin-properties',
-    title: 'Robin Properties Website',
-    categoryTag: 'Real Estate Website',
-    category: 'website-creation',
-    date: '9/15/24',
-    shortDescription: 'Modern real estate property portal featuring interactive luxury listings, neighborhood filters, virtual tours, and automated agent scheduling.',
-    fullDescription: 'A comprehensive high-converting real estate marketplace engineered for Robin Properties. Delivers instant multi-criteria property search (location, price brackets, architectural style), high-resolution 3D virtual walkthroughs, integrated interactive maps, instant lead inquiry routing, and WhatsApp/calendar booking synchronization for listing agents.',
-    image: './assets/images/robin_properties_1789458097704.webp',
-    technologies: ['JavaScript', 'HTML5 / CSS3', 'Tailwind CSS', 'Interactive Maps', 'Virtual Tour Engine'],
-    client: 'Robin Properties Real Estate',
-    duration: '7 Weeks',
-    metrics: '4.2x Lead Conversion, $14M+ Inquiries Processed',
-    architectureHighlights: [
-      'Sub-second vector property filtering across thousands of active listings',
-      'Automated CRM lead routing and instant WhatsApp agent alerts',
-      'High-fidelity WebGL virtual walkthrough tours with optimized asset loading'
-    ],
-    liveUrl: 'https://robinproperties.example.com',
-    githubUrl: 'https://github.com/creativedaub/robin-properties-web'
-  },
-  {
-    id: 'samira-ai-sales',
-    title: 'Samira - AI Sales Assistant',
-    categoryTag: 'AI Agents',
-    category: 'ai-agents',
-    date: '2/28/25',
-    shortDescription: 'Autonomous 24/7 conversational AI sales agent that engages inbound leads, qualifies deal criteria, and books discovery meetings on auto-pilot.',
-    fullDescription: 'Samira is an enterprise-grade autonomous AI sales assistant that handles inbound web inquiries in real time. It dynamically qualifies prospect budgets, company size, and technical needs, answers complex product questions using RAG knowledge bases, and seamlessly books discovery meetings directly onto sales reps Google Calendars with zero human intervention.',
-    image: './assets/images/samira_ai_sales_1789458113478.webp',
-    technologies: ['Google Gemini API', 'Python / FastAPI', 'LangGraph', 'Qdrant RAG', 'Calendar Integration'],
-    client: 'Veloce Revenue Systems',
-    duration: '8 Weeks',
-    metrics: '68% Lead-to-Meeting Conversion, 24/7 Instant Qualification',
-    architectureHighlights: [
-      'Zero-hallucination objection handling with strict enterprise product guardrails',
-      'Bi-directional HubSpot and Salesforce CRM contact synchronization',
-      'Automated calendar scheduling via real-time Google Calendar availability checks'
-    ],
-    liveUrl: 'https://samira.sales-ai.demo',
-    githubUrl: 'https://github.com/creativedaub/samira-ai-sales-assistant'
-  },
-  {
     id: 'impactlink-development-platform',
     title: 'ImpactLink – Full Website + Payment + Onboarding System',
     categoryTag: 'Full-Stack Platform',
@@ -84,27 +42,6 @@ const PROJECTS = [
     ],
     liveUrl: 'https://impactlink.example.org',
     githubUrl: 'https://github.com/zeenosconcept/impactlink-platform'
-  },
-  {
-    id: 'autoonboard-partner-system',
-    title: 'AutoOnboard – Automated Client & Partner Onboarding Platform',
-    categoryTag: 'Automation Platform',
-    category: 'backend-automation',
-    date: '1/22/25',
-    shortDescription: 'Automated onboarding system that turns form submissions into personalized email sequences, document collection workflows, and real-time status tracking for clients and partners.',
-    fullDescription: 'A focused automation platform designed to eliminate manual onboarding emails. New partners or clients submit a form, data is stored, and a personalized multi-step email sequence is automatically triggered. Includes document upload requests, progress tracking, admin notifications, and a simple dashboard to monitor onboarding status across all active partners.',
-    image: './assets/images/autoonboard.jpg', // Digital workflows and team automation
-    technologies: ['Node.js', 'Express', 'PostgreSQL', 'Resend', 'React', 'Tailwind CSS'],
-    client: 'Regional Development Network',
-    duration: '5 Weeks',
-    metrics: 'Zero manual onboarding emails, Average onboarding time reduced by 70%, Full audit trail of communications',
-    architectureHighlights: [
-      'Form-to-database-to-email automation pipeline',
-      'Personalized multi-step email sequences with document requests',
-      'Admin dashboard with real-time onboarding status and notifications'
-    ],
-    liveUrl: 'https://autoonboard.example.org',
-    githubUrl: 'https://github.com/zeenosconcept/autoonboard-platform'
   },
   {
     id: 'payflow-africa',
@@ -147,6 +84,69 @@ const PROJECTS = [
     ],
     liveUrl: 'https://devimpact.example.org',
     githubUrl: 'https://github.com/zeenosconcept/devimpact-site'
+  },
+  {
+    id: 'robin-properties',
+    title: 'Robin Properties Website',
+    categoryTag: 'Real Estate Website',
+    category: 'website-creation',
+    date: '9/15/24',
+    shortDescription: 'Modern real estate property portal featuring interactive luxury listings, neighborhood filters, virtual tours, and automated agent scheduling.',
+    fullDescription: 'A comprehensive high-converting real estate marketplace engineered for Robin Properties. Delivers instant multi-criteria property search (location, price brackets, architectural style), high-resolution 3D virtual walkthroughs, integrated interactive maps, instant lead inquiry routing, and WhatsApp/calendar booking synchronization for listing agents.',
+    image: './assets/images/robin_properties_1789458097704.webp',
+    technologies: ['JavaScript', 'HTML5 / CSS3', 'Tailwind CSS', 'Interactive Maps', 'Virtual Tour Engine'],
+    client: 'Robin Properties Real Estate',
+    duration: '7 Weeks',
+    metrics: '4.2x Lead Conversion, $14M+ Inquiries Processed',
+    architectureHighlights: [
+      'Sub-second vector property filtering across thousands of active listings',
+      'Automated CRM lead routing and instant WhatsApp agent alerts',
+      'High-fidelity WebGL virtual walkthrough tours with optimized asset loading'
+    ],
+    liveUrl: 'https://robinproperties.example.com',
+    githubUrl: 'https://github.com/creativedaub/robin-properties-web'
+  },
+  {
+    id: 'samira-ai-sales',
+    title: 'Samira - AI Sales Assistant',
+    categoryTag: 'AI Agents',
+    category: 'ai-agents',
+    date: '2/28/25',
+    shortDescription: 'Autonomous 24/7 conversational AI sales agent that engages inbound leads, qualifies deal criteria, and books discovery meetings on auto-pilot.',
+    fullDescription: 'Samira is an enterprise-grade autonomous AI sales assistant that handles inbound web inquiries in real time. It dynamically qualifies prospect budgets, company size, and technical needs, answers complex product questions using RAG knowledge bases, and seamlessly books discovery meetings directly onto sales reps Google Calendars with zero human intervention.',
+    image: './assets/images/samira_ai_sales_1789458113478.webp',
+    technologies: ['Google Gemini API', 'Python / FastAPI', 'LangGraph', 'Qdrant RAG', 'Calendar Integration'],
+    client: 'Veloce Revenue Systems',
+    duration: '8 Weeks',
+    metrics: '68% Lead-to-Meeting Conversion, 24/7 Instant Qualification',
+    architectureHighlights: [
+      'Zero-hallucination objection handling with strict enterprise product guardrails',
+      'Bi-directional HubSpot and Salesforce CRM contact synchronization',
+      'Automated calendar scheduling via real-time Google Calendar availability checks'
+    ],
+    liveUrl: 'https://samira.sales-ai.demo',
+    githubUrl: 'https://github.com/creativedaub/samira-ai-sales-assistant'
+  },
+  {
+    id: 'autoonboard-partner-system',
+    title: 'AutoOnboard – Automated Client & Partner Onboarding Platform',
+    categoryTag: 'Automation Platform',
+    category: 'backend-automation',
+    date: '1/22/25',
+    shortDescription: 'Automated onboarding system that turns form submissions into personalized email sequences, document collection workflows, and real-time status tracking for clients and partners.',
+    fullDescription: 'A focused automation platform designed to eliminate manual onboarding emails. New partners or clients submit a form, data is stored, and a personalized multi-step email sequence is automatically triggered. Includes document upload requests, progress tracking, admin notifications, and a simple dashboard to monitor onboarding status across all active partners.',
+    image: './assets/images/autoonboard.jpg', // Digital workflows and team automation
+    technologies: ['Node.js', 'Express', 'PostgreSQL', 'Resend', 'React', 'Tailwind CSS'],
+    client: 'Regional Development Network',
+    duration: '5 Weeks',
+    metrics: 'Zero manual onboarding emails, Average onboarding time reduced by 70%, Full audit trail of communications',
+    architectureHighlights: [
+      'Form-to-database-to-email automation pipeline',
+      'Personalized multi-step email sequences with document requests',
+      'Admin dashboard with real-time onboarding status and notifications'
+    ],
+    liveUrl: 'https://autoonboard.example.org',
+    githubUrl: 'https://github.com/zeenosconcept/autoonboard-platform'
   },
   {
     id: 'ai-response-assistant',
